@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.bgnav {
+   background-color: #098;
+}
+.carousel-item{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, .5)),url('../images/bg-1.jpg');
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    color: #fff;
+}
+.carousel-item .wrap{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.carousel-item p{
+    width: 70%;
+    margin: 10px auto;
+}
+#Menu nav ul li a{
+    color: #fff !important;
+    transition: 1s;
+}
+#Menu nav ul li a:hover {
+    color: #000 !important;
+}
+#Menu nav ul li .active{
+    color: #000 !important;
+}
+/* about css */
+.about-img {
+    /* height: 300px; */
+    width: 100%;
+}
+.contact .socal-icon a{
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    background-color: #fff;
+    box-shadow: 1px 1px 20px #d2cece;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    text-decoration: none;
+    margin-right: 8px;
+}
+.contact .socal-icon{
+    display: flex;
+    justify-content: start;
+}
+
+/* about css */
+.text{
+    color: rgb(114,74,195);
+}
+
+.about a{
+    background-color:#098;
+    color: #fff;
+    border: none;
+}
+.about a:hover{
+    background-color: #40abf8;
+}
+.service .card{
+    box-shadow: 3px 3px 30px #a8a7a7;
+}
+.service button{
+    background-color: #098;
+}
+.service button:hover{
+    background-color:#40abf8;
+    border: none;
+}
+footer{
+    background-color: #098;
+    color: #fff;
+}
+.circle-progress{
+    text-align: center;
+    position: relative;
+}
+.circle-progress span{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+@media screen and (max-width: 767px){
+    .carousel-item{
+        width: 100%;
+        height: 50vh;
+        background-color: #098;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+}
